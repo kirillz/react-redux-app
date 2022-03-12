@@ -1,6 +1,7 @@
 # react-redux-app
 
-ammer_and_wrench: Установка
+## :hammer_and_wrench: Установка
+
 
 - установите [NodeJS](https://nodejs.org/en/) (если требуется) и [Yarn](https://yarnpkg.com/en/docs/install)
 - скачайте сборку с помощью [Git](https://git-scm.com/downloads): `git clone https://github.com/kirillz/react-redux-app.git`
