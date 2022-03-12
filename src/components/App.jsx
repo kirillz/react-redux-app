@@ -1,9 +1,10 @@
 import React from 'react';
+import './app.scss';
 
 const App = () => {
     return (
-        <div>
-            React iss working
+        <div className={"app"}>
+            <h1>React is working!</h1>
         </div>
     );
 };

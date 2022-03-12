@@ -9,6 +9,10 @@ module.exports = {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].[fullhash].js"
     },
+    resolve: {
+        extensions: ['.js', '.json', '.jsx'],
+    },
+
     devServer: {
         port: 3000
     },
