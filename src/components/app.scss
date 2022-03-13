@@ -1,6 +1,13 @@
-h1 {
+body {
   display: flex;
   justify-content: center;
-  color:red;
-  font-size: 30px;
+  background-color: #073461;
+}
+
+.container {
+  width: 1000px;
+}
+h3{
+  text-align: center;
+  color: #d6e319;
 }

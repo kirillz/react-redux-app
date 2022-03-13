@@ -1,20 +1,22 @@
 import React from 'react';
 import './app.scss';
 import {useDispatch, useSelector} from 'react-redux';
-import {setCount} from "../reducers/repoReducer";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Main from "./main/Main";
 
 const App = () => {
     const dispatch = useDispatch()
-    const count = useSelector(state => state.repos.count)
-    function onCountClick() {
-        dispatch(setCount(5))
-    }
+
 
     return (
-        <div className={"app"}>
-            <button onClick={()=>onCountClick()}>COUNT</button>
-            <div>{count}</div>
+    <BrowserRouter>
+        <h3>TOP звезд на GitHub</h3>
+        <div className="container">
+            <Routes>
+                <Route exact path="/"  element={<Main />}/>
+            </Routes>
         </div>
+    </BrowserRouter>
 
     );
 };
