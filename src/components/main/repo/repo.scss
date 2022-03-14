@@ -19,9 +19,10 @@
     justify-content: space-between;
     margin-bottom: 20px;
     &-name{
-      font-size: 1.2em;
+      font-family: Consolas, sans-serif;
+      font-size: 1 em;
       font-weight: 600;
-      color: #fbcffb;
+      color: #d6e319;
     }
     &-stars{
       font-family: Consolas, sans-serif;

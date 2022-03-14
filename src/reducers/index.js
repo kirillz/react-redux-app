@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
 import {createStore, applyMiddleware} from 'redux';
-import reposReducer from "./reposReducer";
+import reposReducer from "./reposReducer.js";
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 
